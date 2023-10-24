@@ -1,0 +1,62 @@
+section {
+  min-height: 60vh;
+}
+
+header {
+  height: 20vh;
+}
+
+header h1 {
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  padding: 1rem;
+}
+
+#hero {
+  background-image: url("./assets/banner-actividad.jpg");
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+#hero p {
+  max-width: 60%;
+}
+
+.hero-btn {
+  background-color: darkgoldenrod;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 150px;
+}
+
+.card {
+  width: 200px;
+  margin: 1rem;
+  text-align: center;
+}
